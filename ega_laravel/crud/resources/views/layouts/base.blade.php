@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 
-@include("layouts.head");
+
+@include("layouts.head")
+
+
 
 <body>
     <div id="app">
@@ -14,10 +17,10 @@
             </header>
 
             <div class="page-heading">
-                <h3>Profile Statistics</h3>
+                <h3></h3>
             </div>
             <div class="page-content">
-               @yield("main")
+                @yield("main")
             </div>
 
             @include("layouts.footer")

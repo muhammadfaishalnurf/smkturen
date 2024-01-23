@@ -44,7 +44,7 @@
                 <li class="sidebar-title">Menu</li>
 
                 <li class="sidebar-item active ">
-                    <a href="#" class='sidebar-link'>
+                    <a href="/" class='sidebar-link'>
                         <i class="bi bi-grid-fill"></i>
                         <span>Dashboard</span>
                     </a>
@@ -52,8 +52,8 @@
 
                 <li class="sidebar-item active">
                     <a href="/database" class='sidebar-link'>
-                        <i class="bi bi-grid-fill"></i>
-                        <span>Comment</span></a>
+                    <i class="bi bi-calendar2-check"></i>
+                        <span>Absensi</span></a>
                 </li>
 
             </ul>
