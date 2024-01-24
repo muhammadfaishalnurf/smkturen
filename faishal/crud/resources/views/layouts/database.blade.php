@@ -27,7 +27,7 @@
                     <li><a class="dropdown-item" href="/profil_pengguna">Profil</a></li>
                     <li>
                         <form action="" method="POST">
-                            <input type="hidden" name="_token" > <a href="/logout" class="btn border-0">
+                            <input type="hidden" name="_token"> <a href="/logout" class="btn border-0">
                                 <i class="fa-solid fa-arrow-right-to-bracket"></i>
                                 <span>Log Out</span>
                             </a>
@@ -70,7 +70,7 @@
             </div>
             <div class="card-body table-responsive">
                 <div id="table_vendor_wrapper" class="dataTables_wrapper dt-bootstrap5 no-footer">
-                    <div class="row g-2 align-item-center">
+                    <div class="row g-2 align-item-center pt-2">
                         <div class="col-auto">Show</div>
                         <div class="col-auto">
                             <select name="table_vendor_length" aria-controls="table_vendor" class="form-select form-select-sm" fdprocessedid="zrst8">
@@ -88,7 +88,6 @@
                             <input type="search" id="search" name="search" class="form-control form-control-sm" placeholder="" aria-controls="table_vendor">
                         </div>
                     </div>
-                    </form>
                     <div class="row">
                         <div class="col-sm-12">
                             <table class="table w-100 dataTable no-footer dtr-inline collapsed" aria-describedby="table_vendor_info">
@@ -120,7 +119,7 @@
                                 </tbody>
                                 <tbody id="Content" class="searchdata">
                                 </tbody>
-                              
+
                             </table>
                             <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
                             <script type="text/javascript">
@@ -133,7 +132,7 @@
                                     } else {
                                         $('.alldata').show();
                                         $('.searchdata').hide();
-                                    } 
+                                    }
 
                                     $.ajax({
 
@@ -155,9 +154,9 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-auto col-md-9">
+                        <!-- <div class="col-auto col-md-9">
                             <div class="dataTables_info" id="table_vendor_info" role="status" aria-live="polite">Showing 1 to 2 of 2 entries</div>
-                        </div>
+                        </div> -->
                         <div class="col-auto">
                             <div class="dataTables_paginate paging_simple_numbers" id="table_vendor_paginate">
                                 <ul class="pagination">
