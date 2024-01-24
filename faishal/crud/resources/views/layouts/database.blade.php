@@ -23,11 +23,11 @@
                 <a class="admin-profil dropdown-toggle img-wrap-profil show" type="button" data-bs-toggle="dropdown" aria-expanded="true" fdprocessedid="v47gfo">
                     <img src="https://manpro.getaplikasi.id/assets/images/faces/user_defaulth.jpg" alt="#" class="mb-2 profil-border rounded-circle">
                 </a>
-                <ul class="dropdown-menu show" data-popper-placement="bottom-end" style="position: absolute; inset: 0px 0px auto auto; margin: 0px; transform: translate3d(0px, 52px, 0px);">
+                <ul class="dropdown-menu" data-popper-placement="bottom-end" style="position: absolute; inset: 0px 0px auto auto; margin: 0px; transform: translate3d(0px, 52px, 0px);">
                     <li><a class="dropdown-item" href="/profil_pengguna">Profil</a></li>
                     <li>
                         <form action="" method="POST">
-                            <input type="hidden" name="_token"> <a href="/logout" class="btn border-0">
+                            <input type="hidden"> <a href="/logout" class="btn border-0">
                                 <i class="fa-solid fa-arrow-right-to-bracket"></i>
                                 <span>Log Out</span>
                             </a>
