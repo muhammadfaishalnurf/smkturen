@@ -12,6 +12,7 @@
         height: 50px;
         object-fit: cover;
     }
+    /* table */
 </style>
 <div class="page-heading" id="read">
     <div class="row">
