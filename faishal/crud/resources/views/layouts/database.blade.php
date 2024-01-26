@@ -12,13 +12,12 @@
         height: 50px;
         object-fit: cover;
     }
-    /* table */
 </style>
 <div class="page-heading" id="read">
     <div class="row">
         <div class="col">
         </div>
-        <div class="col  d-lg-flex justify-content-end">
+        <div class="col d-lg-flex justify-content-end">
 
             <div class="dropdown float-end">
                 <a class="admin-profil dropdown-toggle img-wrap-profil show" type="button" data-bs-toggle="dropdown" aria-expanded="true" fdprocessedid="v47gfo">
