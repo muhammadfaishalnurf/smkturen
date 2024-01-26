@@ -26,7 +26,7 @@ class SessionController extends Controller
         ];
 
         if(Auth::attempt($infologin)){
-            return redirect('database')->with('success','Berhasil Login');
+            return redirect('/')->with('success','Berhasil Login');
         }else{
             return redirect('sesi')->with('error','Silahkan Masukkan Email dan Sandi yang Benar');
         }

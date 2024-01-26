@@ -22,7 +22,7 @@
         class="mb-2 profil-border rounded-circle" width="3%">
     </a>
     <ul class="dropdown-menu" style="">
-      <li><a class="dropdown-item" href="/profil_pengguna">Profil</a></li>
+      <li><a class="dropdown-item" href="#">Profil</a></li>
       <li>
         <form action="" method="POST">
             <a href="sesi" type="submit"
@@ -44,7 +44,7 @@
       <div class="card-body">
         <nav aria-label="breadcrumb">
           <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="index">Home</a></li>
+            <li class="breadcrumb-item"><a href="/">Home</a></li>
             <li class="breadcrumb-item active" aria-current="page">Data Buku</li>
           </ol>
         </nav>

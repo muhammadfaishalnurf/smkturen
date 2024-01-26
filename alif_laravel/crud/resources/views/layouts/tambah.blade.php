@@ -1,4 +1,4 @@
-@extends('layouts.base')
+<!-- @extends('layouts.base')
 @section('main')
 <h3>Tambah Data Buku</h3>
 <a href="/database" class="btn btn-primary">Kembali</a>
@@ -11,4 +11,4 @@
     Kode_buku <input type="text" name="kode_buku" required="required"><br>
     <input type="submit" value="Simpan Data" class="btn btn-success">
 </form>
-@endsection
+@endsection -->
